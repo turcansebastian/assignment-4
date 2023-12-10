@@ -3,16 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Visibility, Opacity, Display, and Link</title>
+    <title>Style Example</title>
+    <style>
+        /* Apply styles to the elements */
+        #element1 {
+            visibility: hidden;
+        }
+
+        #element2 {
+            opacity: 0.5;
+        }
+
+        #element3 {
+            display: none;
+        }
+
+        #link {
+            text-decoration: none;
+            color: blue;
+            border: 1px solid blue;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="box">
-            <a href="https://www.example.com" target="_blank">
-                <img src="example-image.jpg" alt="Example Image">
-            </a>
-        </div>
-    </div>
+
+    <!-- Elements with applied styles -->
+    <div id="element1">This is a hidden element.</div>
+    <div id="element2">This element has reduced opacity.</div>
+    <div id="element3">This element is not displayed.</div>
+
+    <!-- Link with styles to YouTube -->
+    <a id="link" href="https://www.youtube.com" target="_blank">Visit YouTube</a>
+
 </body>
 </html>
